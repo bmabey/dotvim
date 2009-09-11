@@ -1,3 +1,6 @@
 [submodule "src/nerdtree"]
 	path = src/nerdtree
 	url = git://github.com/scrooloose/nerdtree.git
+[submodule "src/vim-rails"]
+	path = src/vim-rails
+	url = git://github.com/tpope/vim-rails.git
