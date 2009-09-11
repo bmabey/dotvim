@@ -7,3 +7,6 @@
 [submodule "src/gist-vim/plugin"]
 	path = src/gist-vim/plugin
 	url = git://github.com/mattn/gist-vim.git
+[submodule "src/ruby_amp"]
+	path = src/ruby_amp
+	url = git://github.com/jtanner/ruby_amp.vim.git
