@@ -1,0 +1,1 @@
+../src/vim-git/syntax/git.vim

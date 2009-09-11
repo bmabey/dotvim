@@ -10,3 +10,6 @@
 [submodule "src/ruby_amp"]
 	path = src/ruby_amp
 	url = git://github.com/jtanner/ruby_amp.vim.git
+[submodule "src/vim-git"]
+	path = src/vim-git
+	url = git://github.com/tpope/vim-git.git

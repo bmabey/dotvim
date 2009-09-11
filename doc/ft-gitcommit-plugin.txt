@@ -1,0 +1,1 @@
+../src/vim-git/doc/ft-gitcommit-plugin.txt
