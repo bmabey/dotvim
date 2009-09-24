@@ -1,0 +1,1 @@
+../src/textile.vim/ftplugin/textile.vim
