@@ -1,1 +1,0 @@
-/Users/bmabey/Programming/ruby/vixploder/lib/dotfiles/vimrc
