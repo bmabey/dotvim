@@ -16,3 +16,9 @@
 [submodule "src/vim-cucumber"]
 	path = src/vim-cucumber
 	url = git://github.com/tpope/vim-cucumber.git
+[submodule "src/vim-surround"]
+	path = src/vim-surround
+	url = git://github.com/tpope/vim-surround.git
+[submodule "src/textile.vim"]
+	path = src/textile.vim
+	url = git://github.com/timcharper/textile.vim.git
