@@ -1,0 +1,1 @@
+../src/vim-latex-1.5-20091002-r1074/doc/latex-suite-common.xsl

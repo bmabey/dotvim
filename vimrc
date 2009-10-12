@@ -296,7 +296,7 @@ map <leader>ev :e ~/.vimrc<CR>
 
 
 " Compile and view latex document
-map <leader>lp \ll<CR>\lv<CR>
+map <leader>lp ,ll<CR>,lv<CR>
 
 " Move up and down lines regardless of formatting (move within line wraps)
 nnoremap j gj
