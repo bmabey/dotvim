@@ -22,3 +22,6 @@
 [submodule "src/textile.vim"]
 	path = src/textile.vim
 	url = git://github.com/timcharper/textile.vim.git
+[submodule "src/nerdcommenter"]
+	path = src/nerdcommenter
+	url = git://github.com/scrooloose/nerdcommenter.git
