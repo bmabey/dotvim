@@ -1,0 +1,1 @@
+../src/gitosis.vim/plugin/gitosis.vim
