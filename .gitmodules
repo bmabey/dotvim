@@ -28,3 +28,6 @@
 [submodule "src/vim-fugitive"]
 	path = src/vim-fugitive
 	url = git://github.com/tpope/vim-fugitive.git
+[submodule "src/vim-markdown"]
+	path = src/vim-markdown
+	url = git://github.com/tpope/vim-markdown.git
