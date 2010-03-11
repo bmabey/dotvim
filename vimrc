@@ -74,7 +74,7 @@ endif " has("audocmd")
 "set foldmethod=syntax               "Syntax highlighting items specify folds
 
 "Not sure how I feel about these two yet
-"Commenting out...probably not 'sane default' people would expect. Leaving 
+"Commenting out...probably not 'sane default' people would expect. Leaving
 "for reference...
 "set foldopen=all                    "Auto-opens folds on all possible 'autocmds'
 "set foldclose=all                   "Auto-closes folds on all possible autocmds
@@ -92,7 +92,7 @@ set softtabstop=2       "Tabs are 2-spaces...using instead of 'tabstop' as per:
                         "  want for indentation is a much better strategy and will let other people work
                         "  with your code easily, too.'
                         "   -Comment by 'Jeremy' in"  Jamis Buck's 'VIM Follow-up'
-                        "    article, http://bit.ly/BRG8 
+                        "    article, http://bit.ly/BRG8
 
 set shiftwidth=2        "Number of spaces to use for each step of (auto)indent
 set expandtab           "Replace "tab" characters with the number of  spaces defined
@@ -202,7 +202,7 @@ noremap <leader>f :FuzzyFinderTextMate<CR>
 map <leader>r :ruby finder.rescan!<CR>
 let g:fuzzy_matching_limit = 20
 let g:fuzzy_ceiling = 20000
- 
+
 " FuzzyFinder Buffer
 map ,b :FuzzyFinderBuffer<CR>
 
@@ -217,7 +217,8 @@ noremap <Leader>nt :NERDTreeToggle<CR>
 let g:fuzzy_matching_limit='50'
 
 "Ignore the following glob file patters in FuzzyFinder searches
-let g:fuzzy_ignore='*.log, data/*, data_test/*, data_test/**'
+"let g:fuzzy_ignore='*.log, data/*, data_test/*, data_test/**, *.class, *.jar'
+let g:fuzzy_ignore="*.log, *.class, *.jar,tmp/* , public/images, lib/*.jar"
 
 " If we are in a Rails app, just search across the app, lib, config, spec, and test
 " directories
@@ -317,13 +318,13 @@ map <C-L> <C-W>l
 " http://blog.ant0ine.com/2007/03/ack_and_vim_integration.html
 " use :cc, :cp, :cn to navigate to the results
 set grepprg=ack
-map <leader>a :Ack 
+map <leader>a :Ack
 
 " Set viewers for latex formats
 " let g:Tex_ViewRule_dvi    'xdvi'
 " let g:Tex_ViewRule_ps     'ghostview'
 if s:on_mac
-  let Tex_ViewRuleComplete_pdf = '/usr/bin/open -a Preview $*.pdf' 
+  let Tex_ViewRuleComplete_pdf = '/usr/bin/open -a Preview $*.pdf'
 end
 
 " OPTIONAL: Starting with Vim 7, the filetype of empty .tex files defaults to
