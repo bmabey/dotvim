@@ -217,8 +217,7 @@ noremap <Leader>nt :NERDTreeToggle<CR>
 let g:fuzzy_matching_limit='50'
 
 "Ignore the following glob file patters in FuzzyFinder searches
-"let g:fuzzy_ignore='*.log, data/*, data_test/*, data_test/**, *.class, *.jar'
-let g:fuzzy_ignore="*.log, *.class, *.jar,tmp/* , public/images, lib/*.jar"
+let g:fuzzy_ignore="**/*.jar;**/*.class;tmp/**;scratch/**;public/images/**;vendor/**"
 
 " If we are in a Rails app, just search across the app, lib, config, spec, and test
 " directories
