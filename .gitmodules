@@ -31,3 +31,6 @@
 [submodule "src/vim-markdown"]
 	path = src/vim-markdown
 	url = git://github.com/tpope/vim-markdown.git
+[submodule "src/vim-liquid"]
+	path = src/vim-liquid
+	url = git://github.com/tpope/vim-liquid.git

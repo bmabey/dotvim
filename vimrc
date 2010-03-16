@@ -326,6 +326,9 @@ if s:on_mac
   let Tex_ViewRuleComplete_pdf = '/usr/bin/open -a Preview $*.pdf'
 end
 
+" liquid/jekyll support - http://tbaggery.com/2010/02/28/episode-iv-a-new-pope.html
+let g:liquid_highlight_types=["html","erb=eruby","html+erb=eruby.html"]
+
 " OPTIONAL: Starting with Vim 7, the filetype of empty .tex files defaults to
 " 'plaintex' instead of 'tex', which results in vim-latex not being loaded.
 " The following changes the default filetype back to 'tex':
