@@ -1,0 +1,1 @@
+../src/vim-liquid/syntax/liquid.vim

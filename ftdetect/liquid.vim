@@ -1,0 +1,1 @@
+../src/vim-liquid/ftdetect/liquid.vim
