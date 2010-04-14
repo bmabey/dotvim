@@ -198,13 +198,16 @@ map <leader>cb :b # <BAR> bd #<CR>
 "noremap ? :nohlsearch<CR>
 
 "Set up TextMate-like cmd-T file searching using <leader>-f ('backslash'-f)
-noremap <leader>f :FuzzyFinderTextMate<CR>
+"noremap <leader>f :FuzzyFinderTextMate<CR>
+noremap <leader>ff :FuzzyFinderTextMate<CR>
 map <leader>r :ruby finder.rescan!<CR>
 let g:fuzzy_matching_limit = 20
 let g:fuzzy_ceiling = 20000
 
 " FuzzyFinder Buffer
-map ,b :FuzzyFinderBuffer<CR>
+"map ,b :FuzzyFinderBuffer<CR>
+",b must be used for something else as well because there is a delay...
+noremap <leader>bb :FuzzyFinderBuffer<CR>
 
 
 "Toggle NERDTree window using F3 key
@@ -217,7 +220,7 @@ noremap <Leader>nt :NERDTreeToggle<CR>
 let g:fuzzy_matching_limit='50'
 
 "Ignore the following glob file patters in FuzzyFinder searches
-let g:fuzzy_ignore="**/*.jar;**/*.class;tmp/**;scratch/**;public/images/**;vendor/**"
+let g:fuzzy_ignore="**/*.jar;**/*.class;tmp/**;scratch/**;public/images/**;vendor/**;ruby/**"
 
 " If we are in a Rails app, just search across the app, lib, config, spec, and test
 " directories
